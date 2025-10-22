@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		01B011832EA928CD00912596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B011642EA928CC00912596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B0116B2EA928CD00912596;
+			remoteInfo = CDPASR;
+		};
+		01B0118D2EA928CD00912596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B011642EA928CC00912596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B0116B2EA928CD00912596;
+			remoteInfo = CDPASR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B0116C2EA928CD00912596 /* CDPASR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDPASR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B011822EA928CD00912596 /* CDPASRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPASRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B0118C2EA928CD00912596 /* CDPASRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPASRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		01B011942EA928CD00912596 /* Exceptions for "CDPASR" folder in "CDPASR" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 01B0116B2EA928CD00912596 /* CDPASR */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		01B0116E2EA928CD00912596 /* CDPASR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				01B011942EA928CD00912596 /* Exceptions for "CDPASR" folder in "CDPASR" target */,
+			);
+			path = CDPASR;
+			sourceTree = "<group>";
+		};
+		01B011852EA928CD00912596 /* CDPASRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CDPASRTests;
+			sourceTree = "<group>";
+		};
+		01B0118F2EA928CD00912596 /* CDPASRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CDPASRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B011692EA928CD00912596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B0117F2EA928CD00912596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B011892EA928CD00912596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B011632EA928CC00912596 = {
+			isa = PBXGroup;
+			children = (
+				01B0116E2EA928CD00912596 /* CDPASR */,
+				01B011852EA928CD00912596 /* CDPASRTests */,
+				01B0118F2EA928CD00912596 /* CDPASRUITests */,
+				01B0116D2EA928CD00912596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B0116D2EA928CD00912596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B0116C2EA928CD00912596 /* CDPASR.app */,
+				01B011822EA928CD00912596 /* CDPASRTests.xctest */,
+				01B0118C2EA928CD00912596 /* CDPASRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B0116B2EA928CD00912596 /* CDPASR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B011952EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASR" */;
+			buildPhases = (
+				01B011682EA928CD00912596 /* Sources */,
+				01B011692EA928CD00912596 /* Frameworks */,
+				01B0116A2EA928CD00912596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				01B0116E2EA928CD00912596 /* CDPASR */,
+			);
+			name = CDPASR;
+			packageProductDependencies = (
+			);
+			productName = CDPASR;
+			productReference = 01B0116C2EA928CD00912596 /* CDPASR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01B011812EA928CD00912596 /* CDPASRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B0119A2EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASRTests" */;
+			buildPhases = (
+				01B0117E2EA928CD00912596 /* Sources */,
+				01B0117F2EA928CD00912596 /* Frameworks */,
+				01B011802EA928CD00912596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B011842EA928CD00912596 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01B011852EA928CD00912596 /* CDPASRTests */,
+			);
+			name = CDPASRTests;
+			packageProductDependencies = (
+			);
+			productName = CDPASRTests;
+			productReference = 01B011822EA928CD00912596 /* CDPASRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01B0118B2EA928CD00912596 /* CDPASRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B0119D2EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASRUITests" */;
+			buildPhases = (
+				01B011882EA928CD00912596 /* Sources */,
+				01B011892EA928CD00912596 /* Frameworks */,
+				01B0118A2EA928CD00912596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B0118E2EA928CD00912596 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01B0118F2EA928CD00912596 /* CDPASRUITests */,
+			);
+			name = CDPASRUITests;
+			packageProductDependencies = (
+			);
+			productName = CDPASRUITests;
+			productReference = 01B0118C2EA928CD00912596 /* CDPASRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B011642EA928CC00912596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					01B0116B2EA928CD00912596 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					01B011812EA928CD00912596 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01B0116B2EA928CD00912596;
+					};
+					01B0118B2EA928CD00912596 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01B0116B2EA928CD00912596;
+					};
+				};
+			};
+			buildConfigurationList = 01B011672EA928CC00912596 /* Build configuration list for PBXProject "CDPASR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B011632EA928CC00912596;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01B0116D2EA928CD00912596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B0116B2EA928CD00912596 /* CDPASR */,
+				01B011812EA928CD00912596 /* CDPASRTests */,
+				01B0118B2EA928CD00912596 /* CDPASRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B0116A2EA928CD00912596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B011802EA928CD00912596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B0118A2EA928CD00912596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B011682EA928CD00912596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B0117E2EA928CD00912596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B011882EA928CD00912596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B011842EA928CD00912596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B0116B2EA928CD00912596 /* CDPASR */;
+			targetProxy = 01B011832EA928CD00912596 /* PBXContainerItemProxy */;
+		};
+		01B0118E2EA928CD00912596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B0116B2EA928CD00912596 /* CDPASR */;
+			targetProxy = 01B0118D2EA928CD00912596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B011962EA928CD00912596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWX642N95C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CDPASR/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风以进行语音输入，请允许本应用访问您的麦克风权限。您的授权将帮助我们为您提供完整的功能体验。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要授权以识别您的语音输入，请允许本应用获取语音识别权限。该权限仅用于处理您的语音信息，以提供更便捷的交互体验。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B011972EA928CD00912596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWX642N95C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CDPASR/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风以进行语音输入，请允许本应用访问您的麦克风权限。您的授权将帮助我们为您提供完整的功能体验。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要授权以识别您的语音输入，请允许本应用获取语音识别权限。该权限仅用于处理您的语音信息，以提供更便捷的交互体验。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01B011982EA928CD00912596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01B011992EA928CD00912596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B0119B2EA928CD00912596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPASR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CDPASR";
+			};
+			name = Debug;
+		};
+		01B0119C2EA928CD00912596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPASR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CDPASR";
+			};
+			name = Release;
+		};
+		01B0119E2EA928CD00912596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDPASR;
+			};
+			name = Debug;
+		};
+		01B0119F2EA928CD00912596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CDP.CDPASRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDPASR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B011672EA928CC00912596 /* Build configuration list for PBXProject "CDPASR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B011982EA928CD00912596 /* Debug */,
+				01B011992EA928CD00912596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B011952EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B011962EA928CD00912596 /* Debug */,
+				01B011972EA928CD00912596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B0119A2EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B0119B2EA928CD00912596 /* Debug */,
+				01B0119C2EA928CD00912596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B0119D2EA928CD00912596 /* Build configuration list for PBXNativeTarget "CDPASRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B0119E2EA928CD00912596 /* Debug */,
+				01B0119F2EA928CD00912596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B011642EA928CC00912596 /* Project object */;
+}
