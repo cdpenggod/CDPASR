@@ -19,9 +19,7 @@ To use CDPASR, your project must meet the following requirements:
 
 
 
-* 系统版本：iOS 10.0+ /macOS 10.12+
-
-* 开发语言：Swift 5.0+
+* 系统版本：iOS 10.0+ /macOS 10.15+
 
 ## Permissions Setup
 
